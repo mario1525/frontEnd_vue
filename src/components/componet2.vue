@@ -3,32 +3,31 @@
         <div class="busq">
             <img src="../assets/busqueda.png" width="50px" height="50px">
         </div>
-        <div class="btn1">
-            <button> Home</button>
+        <div >
+            <button class="btn1 btnt"> Home</button>
         </div>
-        <div class="btn2">
-            <button>  tecnologias</button>
+        <div >
+            <button class="btn2 btnt">  tecnologias</button>
         </div>
-        <div class="btn3">
-            <button> proyectos</button>
+        <div >
+            <button class="btn3 btnt"> proyectos</button>
         </div>
         <div class="imgLogo">
             <img src="../assets/santaCruz.png" width="180px" height="180px">
         </div>
-        <div class="btn4">
-            <button> modelos</button>
+        <div >
+            <button class="btn4 btnt"> modelos</button>
         </div>
-        <div class="btn5">
-            <button> mantenimiento</button>
+        <div class="btn5 btnt">
+            <button> repuestos</button>
         </div>
-        <div class="btn6">
-            <button> contacto</button>
+        <div>
+            <button  class="btn6 btnt"> contacto</button>
         </div> 
         <div class="compra">
             <img src="../assets/carrito.png" width="50px" height="50px">
         </div>       
     </div>
-
 </template>
 
 <script>
@@ -59,7 +58,7 @@ button{
     background: transparent;
     border: transparent;
 }
-button:hover {
+.btnt:hover {
     border-bottom: 4px solid #fb2e01;
 }
 

@@ -1,7 +1,7 @@
 <template>
 <div class="contenedor">  
   <componet2Vue/>  
-  <HelloWorld msg="hello world vue"/> 
+  <HelloWorld/> 
   <bodyVue/>
 </div>     
 </template>
@@ -29,13 +29,13 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: none;
+ background-color: #fffeb3;
  
 }
 .contenedor{
   display: grid;
-  height: 2500px;
+  height: 1000px;
   grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
+  grid-template-rows: 180px 600px 200px;
 }
 </style>
