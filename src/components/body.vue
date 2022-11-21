@@ -28,6 +28,7 @@ export default {
     display: grid;
     grid-template-columns: 220px 300px 110px 210px 300px;
     grid-template-rows: 200px;
+    background-color: #ffe28a;
 }
 .descrip{
     grid-column: 2/3;
